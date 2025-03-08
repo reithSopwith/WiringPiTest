@@ -8,7 +8,7 @@
 
 int main(void)
 {
-    wiringPiSetup();
+    wiringPiSetupGpio();
     pinMode(2, OUTPUT);
     for (int i = 0; i < 10; i++)
     {
